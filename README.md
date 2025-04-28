@@ -30,7 +30,7 @@ The Gene Ontology terms for each protein are generalized using the general GO Sl
 A **cosine similarity matrix** is built across all embeddings, allowing quick retrieval of top-k similar proteins for any given query.
 
 
-**5. Model Building (Optional)**  
+**5. Model Building**  
 Clustering methods like **K-means** and **Truncated SVD** are applied to 
 
 **6. Evaluation**  
