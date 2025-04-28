@@ -29,14 +29,14 @@ The Gene Ontology terms for each protein are generalized using the general GO Sl
 **4. Similarity Computation**  
 A **cosine similarity matrix** is built across all embeddings, allowing quick retrieval of top-k similar proteins for any given query.
 
-
 **5. Model Building**  
-Clustering methods like **K-means** and **Truncated SVD** are applied to 
+Clustering methods like **K-means** and dimensionality reduction methods like **Truncated SVD** are applied to the embeddings to visualize related proteins.
 
 **6. Evaluation**  
 GO term annotations are used to check how functionally similar the retrieved proteins are using **Jaccard similarity**.  
 Additionally, **cluster purity** is used to determine the quality of the KMeans clustering.
 
+---
 
 ## Applications
 - Functional prediction for unknown proteins
